@@ -1,0 +1,9 @@
+https://www.figma.com/file/oBgmrlFmQ65ATvcy3EIoYv/Rescue-Center---Challenge-I?type=design&node-id=0%3A1&mode=design&t=oawhYrQ25eheJrIX-1
+
+https://www.figma.com/proto/oBgmrlFmQ65ATvcy3EIoYv/Rescue-Center---Challenge-I?type=design&node-id=76-218&t=IBHHHz1ZcBkxs99M-1&scaling=scale-down&page-id=0%3A1&starting-point-node-
+
+https://fonts.google.com/specimen/Poppins?query=poppins 
+
+navegavel mobile: https://www.figma.com/proto/oBgmrlFmQ65ATvcy3EIoYv/Rescue-Center---Challenge-I?type=design&node-id=205-856&t=YZuLyvF8D5kRySQp-1&scaling=scale-down&page-id=205%3A855&starting-point-node-id=205%3A856&mode=design
+
+navegavel desktop: https://www.figma.com/proto/oBgmrlFmQ65ATvcy3EIoYv/Rescue-Center---Challenge-I?type=design&node-id=76-218&t=IBHHHz1ZcBkxs99M-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=76%3A218&mode=design

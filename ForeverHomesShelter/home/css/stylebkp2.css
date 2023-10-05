@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+  .principal{
+    /*display: grid;
+    background-color:#F5F5F5;*/
+    width: 80%;
+    /*grid-template-columns: auto auto;*/
+    background-color:aquamarine;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .menu li{
+    display: inline;
+    font-weight: 700;
+    size: 20px;
+    line-height: 32px;
+    text-justify:distribute;
+    padding: 10px;
+    background-color: yellow;
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  /*p{
+    background-color: yellow;
+    width: 50%;
+  }*/
+
+  .texto{
+    background-color: yellow;
+    width: 50%;
+  }
+
+  .cao_gato{
+
+    display:block;
+    background-color: red;
+    width: 50%;
+  }
+  
