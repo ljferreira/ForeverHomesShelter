@@ -137,6 +137,20 @@ main{
     font-size: 20px;
   }
 
+  .botaoSubscribe{
+    width: 238px;
+    height: 64px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 32px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #1E1F27;
+    background-color: #F8DB46;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+
 .iconeCao, .iconeCoracao{
   position: relative;
   top: 5px;
