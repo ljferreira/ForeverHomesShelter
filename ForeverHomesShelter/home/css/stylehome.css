@@ -1,0 +1,188 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*
+header{
+  height: 100%;
+  width: 85%;
+  background-color: aquamarine;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+
+main{
+  height: 100%;
+  width: 85%;
+  background-color:darkgoldenrod;
+  margin: auto;
+}
+
+.menuHeader{
+  text-decoration: none;
+  font-weight: 700;
+  size: 20px;
+  line-height: 5px;
+  /*padding: 0px 5px 0px 5px;*/
+  /*align-content: center;*/
+/*}*/
+
+.botaoDonate{
+  width: 181px;
+  height: 64px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 32px;
+  gap: 8px;
+  border: none;
+  color: white;
+  background-color: #FF3D9A;
+  font-weight:700;
+  font-size:   20px;
+
+  /*position: relative;
+  margin-left: 23.5%;
+  margin-top: 0px;*/
+}
+
+.botaoIconApplyToAdopt{
+  width: 263px;
+  height: 64px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 32px;
+  gap: 8px;
+  border: 2px solid;
+  color: #1E1F27;
+  background-color: #F5F5F5;
+  font-weight:700;
+  font-size: 20px;
+}
+
+.botaoApplyToAdopt{
+    width: 223px;
+    height: 64px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 32px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #F5F5F5;
+    background-color: #1E1F27;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+  .botaoViewAdoptables{
+    width: 238px;
+    height: 64px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 32px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #1E1F27;
+    background-color: #F8DB46;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+  .botaoRaio16GetInvolved{
+    width: 224px;
+    height: 64px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #1E1F27;
+    background-color: #04C27F;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+  .botaoGetInvolved{
+    width: 224px;
+    height: 64px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #1E1F27;
+    background-color: #F1D06E;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+  .botaoGiveMonthly{
+    width: 224px;
+    height: 64px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #1E1F27;
+    background-color: #FF3D9A;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+  .botaoLearnMore{
+    width: 224px;
+    height: 64px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #1E1F27;
+    background-color: #5758F1;
+    font-weight:700;
+    font-size: 20px;
+  }
+
+.iconeCao, .iconeCoracao{
+  position: relative;
+  top: 5px;
+  padding-right: 15px;
+  /*border: 2px black solid;*/
+}
+/*
+.logotipo, nav, aside, h6, p{
+  display: inline;
+}
+
+.logotipo{
+  position: relative;
+  margin-left: -5px;
+  margin-top: 0px;
+}
+
+.caoGatoCasa{
+  clear: left;
+  background-color: brown;
+  width: 30%;  
+}
+
+nav{
+  position: absolute;
+  margin-top: 5px;
+  background-color: chartreuse;
+}
+
+aside{
+  background-color: darkblue;
+}
+
+section{
+  background-color: #FF3D9A;
+  width: 50%;
+}
+
+/*div, main, h1, p{
+  display: inline;
+  width: 50%;
+}*/
+
+.telefone{
+  display: inline;
+  font-weight: 700;
+  size: 20px;
+  line-height: 5px;
+}
