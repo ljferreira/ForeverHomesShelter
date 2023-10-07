@@ -7,12 +7,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/stylehome.css">
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
         <header>
             <figure class="logotipo">
-                <img src="img/png/logo.png" alt="logotipo forever homes shelter"/>
+                <img src="../img/png/logo.png" alt="logotipo forever homes shelter"/>
             </figure>
             <nav>
                 <a class="menuHeader" href="#">Rescue center</a> 
@@ -22,8 +22,8 @@
                 <a class="menuHeader" href="#">Events</a>
             </nav>
             <aside>
-                <img class="telefone" src="img/png/telefone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
-                <button class="botaoDonate"><img class="iconeCoracao" src="img/png/coracao.png"/>Donate</button>
+                <img class="telefone" src="../img/png/telefone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
+                <button class="botaoDonate" onclick="window.location.href = 'donate.html';"><img class="iconeCoracao" src="../img/png/coracao.png"/>Donate</button>
             </aside>
         </header>
         <main>
@@ -38,11 +38,11 @@
                     are a refuge.
                 </p>
                 <h3>Your Gift Helps Save Lives</h3>
-                <button class="botaoDonate"><img class="iconeCoracao" src="img/png/coracao.png"/>Donate</button>
-                <button class="botaoIconApplyToAdopt"><img class="iconeCao" src="img/png/iconeCao.png"/>Apply to Adopt</button>
+                <button class="botaoDonate" onclick="window.location.href = 'donate.html';"><img class="iconeCoracao" src="../img/png/coracao.png"/>Donate</button>
+                <button class="botaoIconApplyToAdopt" onclick="window.location.href = 'adopt.html';"><img class="iconeCao" src="../img/png/iconeCao.png"/>Apply to Adopt</button>
             </section>
             <section class="caoGatoCasa">
-                <img src="img/cao_gato_casa.png" height="200"/>
+                <img src="../img/cao_gato_casa.png" height="200"/>
             </section>
         </main>
         <main>
@@ -57,32 +57,32 @@
             <section>
                 <section>
                     <h4>Shelter</h4>
-                    <img src="img/png/casinha.png">
+                    <img src="../img/png/casinha.png">
                     <p>We provide shelter for many of our cats and dogs. In addition to a roof over their heads, we pay for heat, food, water, and electricity, and general maintenance.</p>
                 </section>
                 <section>
                     <h4>Vetting</h4>
-                    <img src="img/png/cruz.png">
+                    <img src="../img/png/cruz.png">
                     <p>We provide vet care to our cats and dogs. We take care of general health assessments medications, vaccinations, spay/neuter procedures, and other surgeries.</p>
                 </section>
                 <section>
                     <h4>Facilities</h4>
-                    <img src="img/png/edificio.png">
+                    <img src="../img/png/edificio.png">
                     <p>We currently utilize a facility in a dilapidated state, which has necessitated significant investments to make it usable again. We are still restoring the building to its full potential.</p>
                 </section>
                 <section>
                     <h4>Transport</h4>
-                    <img src="img/png/cestinho.png">
+                    <img src="../img/png/cestinho.png">
                     <p>Each year, we transport over 600 dogs and 350 cats from kill shelters and emergency distressing situations to hospitals or our shelter, providing them with a second chance at life.</p>
                 </section>
                 <section>
                     <h4>Fosters</h4>
-                    <img src="img/png/carinha.png">
+                    <img src="../img/png/carinha.png">
                     <p>We're lucky to have a group of individuals who generously foster our cats and dogs in their homes. We cover all their veterinary needs and provide necessary food supplies.</p>
                 </section>
                 <section>
                     <h4>Food</h4>
-                    <img src="img/png/ossinho.png">
+                    <img src="../img/png/ossinho.png">
                     <p>Each year, we nourish our  cats and dogs with over 2,200 cans of wet food and 1,600 pounds of dry food to ensure their well-being and keep them content and thriving.</p>
                 </section>
             </section>
@@ -90,7 +90,7 @@
         <main>
             <h2>Adoption information</h2>
             <figure>
-                <img src="img/png/imgInfoAdocao.png">
+                <img src="../img/png/imgInfoAdocao.png">
             </figure>
             <section>
                 <h3>Applicants must:</h3>
@@ -112,7 +112,7 @@
                 <section>
                     <h4>Adopt or Foster</h4>
                     <p>Provide a forever or temporary home to a homeless animal.</p>    
-                    <button class="botaoRaio16GetInvolved">View Adoptables</button>
+                    <button class="botaoRaio16ViewAdoptables" onclick="window.location.href = 'adoptable.html';">View Adoptables</button>
                 </section>
                 <section>
                     <h4>Volunteer</h4>
@@ -133,27 +133,27 @@
         </main>
         <main>
             <figure>
-                <img src="img/png/Cat-Img.png">
+                <img src="../img/png/Cat-Img.png">
             </figure>
             <section>
                 <h2>Find your best friend today!</h2>
                 <h3>Browse our adorable adoptables</h3>
-                <button class="botaoViewAdoptables">View Adoptables</button>
+                <button class="botaoViewAdoptables" onclick="window.location.href = 'adoptable.html';">View Adoptables</button>
                 <button class="botaoApplyToAdopt">Apply to Adopt</button>
             </section>
             <figure>
-                <img src="img/png/Dog_Img.png">
+                <img src="../img/png/Dog_Img.png">
             </figure>
         </main>
         <main>
             <section>
                 <h2>Subscribe to our newsletter</h2>
                 <p>for updates on shelter events, fundraising parties, and heartwarming stories of animals finding their forever homes.</p>
-                <input type="email" placeholder="Enter your email"><button class="botaoSubscribe">Subscribe</button>
+                <input type="email" placeholder="Enter your email"><button class="botaoSubscribe" onclick="window.location.href = 'success.html';">Subscribe</button>
             </section>
         </main>
         <footer>
-            <figure><img src="img/png/logoFooter.png"></figure>
+            <figure><img src="../img/png/logoFooter.png"></figure>
             <section>
                 <ul>
                     <li>Adopt a Pet</li>
@@ -175,17 +175,17 @@
                 </ul>
             </section>
             <address>
-                <img class="telefone" src="img/png/iconeLocal.png" alt="local"/><h4 class="telefone">PO Box 83644</h4>
+                <img class="telefone" src="../img/png/iconeLocal.png" alt="local"/><h4 class="telefone">PO Box 83644</h4>
                 <h4>Middleton, 2452 Wilson</h4>
-                <img class="telefone" src="img/png/telefone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
-                <img class="telefone" src="img/png/iconeEmail.png" alt="email"/><h4 class="telefone">pet_home@gmail.com</h4>
-                <img class="telefone" src="img/png/iconeTwitter.png" alt="iconeTwitter"/>
-                <img class="telefone" src="img/png/iconeWhatsApp.png" alt="iconeWhatsApp"/>
-                <img class="telefone" src="img/png/iconeInstagram.png" alt="iconeInstagram"/>
+                <img class="telefone" src="../img/png/telefone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
+                <img class="telefone" src="../img/png/iconeEmail.png" alt="email"/><h4 class="telefone">pet_home@gmail.com</h4>
+                <img class="telefone" src="../img/png/iconeTwitter.png" alt="iconeTwitter"/>
+                <img class="telefone" src="../img/png/iconeWhatsApp.png" alt="iconeWhatsApp"/>
+                <img class="telefone" src="../img/png/iconeInstagram.png" alt="iconeInstagram"/>
             </address>
         </footer>
         <section>
-            <H3>​We are not just a rescue, we are a refuge</H3>
+            <H3>We'are not just a rescue, we are a refuge</H3>
         </section>
     </body>
 </html>
