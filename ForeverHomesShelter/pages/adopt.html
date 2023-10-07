@@ -11,5 +11,34 @@
     </head>
     <body>
         <h1>Apply to Adopt</h1>
+        <h5>Small text description can goes here</h5>
+        <form>
+            <p>
+                <label>EMAIL*</label></br>
+                <input type="email" placeholder="youremail@here|"/>
+            </p>
+            <p>
+                <label>FULL NAME*</label></br>
+                <input type="text" placeholder="Your name" />
+            </p>
+            <p>
+                <label>DATE OF BIRTH*</label></br>
+                <select name="day" id="day">
+                    <option value="day">Day</option>
+                </select>
+                <select name="month" id="month">
+                    <option value="month">Month</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="year">Year</option>
+                </select>
+            </p>
+            <p>
+                <input type="radio" id="termosCondicoes" name="metodoPagamento" value="termosCondicoes"/>
+                <label for="termosCondicoes">I agree with Privacy Policy and Terms of Conditions</label>
+            </p>
+                <button class="botaoIWannaAdopt" onclick="window.location.href = 'success.html';"><img class="iconeCao" src="../img/png/iconeCaoBranco.png"/>I wanna Adopt!</button>
+            <button class="botaoCancel"><img class="iconeSetaEsquerda" src="../img/png/setaEsquerda.png"/>Cancel</button>
+        </form>
     </body>
 </html>

@@ -154,6 +154,19 @@ main{
     font-size: 20px;
   }
 
+  .botaoIWannaAdopt{
+    width: 384px;
+    height: 64px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 2px solid #F5F5F5;
+    color: #F5F5F5;
+    background-color: #04C27F;
+    font-weight:700;
+    font-size: 20px;
+  }
+
   .botaoSubscribe{
     width: 238px;
     height: 64px;
