@@ -22,7 +22,7 @@
                 <a class="menuHeader" href="#">Events</a>
             </nav>
             <aside>
-                <img class="telefone" src="../img/png/telefone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
+                <img class="iconeFone" src="../img/png/fone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
                 <button class="botaoDonate" onclick="window.location.href = 'donate.html';"><img class="iconeCoracao" src="../img/png/coracao.png"/>Donate</button>
             </aside>
         </header>
@@ -42,7 +42,7 @@
                 <button class="botaoIconApplyToAdopt" onclick="window.location.href = 'adopt.html';"><img class="iconeCao" src="../img/png/iconeCao.png"/>Apply to Adopt</button>
             </section>
             <section class="caoGatoCasa">
-                <img src="../img/cao_gato_casa.png" height="200"/>
+                <img src="../img/cao_gato_casa.png" width="470"/>
             </section>
         </main>
         <main>
@@ -147,9 +147,11 @@
         </main>
         <main>
             <section>
-                <h2>Subscribe to our newsletter</h2>
-                <p>for updates on shelter events, fundraising parties, and heartwarming stories of animals finding their forever homes.</p>
-                <input type="email" placeholder="Enter your email"><button class="botaoSubscribe" onclick="window.location.href = 'success.html';">Subscribe</button>
+                <form action="success.html">
+                    <h2>Subscribe to our newsletter</h2>
+                    <p>for updates on shelter events, fundraising parties, and heartwarming stories of animals finding their forever homes.</p>
+                    <input type="email" placeholder="Enter your email"><button class="botaoSubscribe" type="submit" onclick="window.location.href = 'success.html';">Subscribe</button>
+                </form>
             </section>
         </main>
         <footer>
