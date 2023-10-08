@@ -1,11 +1,13 @@
 *{
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 
 body{
   margin: 0;
+  background-color: #F5F5F5;
 }
 section{
   display: inline-block;
@@ -62,6 +64,7 @@ p{
 /*display:inline-block;*/
 margin-top: -18px;
 line-height: 1.6;
+font-family: Inter;
 font-size: 23px;
 padding: 0px 50px 0px 0px;
 font-weight: 500;
@@ -94,7 +97,7 @@ nav{
   //margin: 0px;*/
   margin-top: 30px;
   margin-left: 10px;
-  width: 45%;
+  width: 50%;
   
   text-align: start;
   /*background-color: red;*/
@@ -103,6 +106,7 @@ nav{
 nav a{
 text-decoration: none;
 color: black;
+font-family: 'Montserrat', sans-serif;
 font-weight:700;
 size: 20px;
 padding: 0rem 1.5rem 0rem 0rem;
@@ -400,4 +404,63 @@ width: 50%;
 display: inline;
 width: 50%;
 }*/
+
+.statsBlock{
+  background-color: #1E1F27;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 0%;
+  height: 924px;
+}
+
+.statsBlockContent{
+  width: 83%;
+  margin-left: 8.5%;
+  margin-right: 8.5%;
+  padding: 40px 0px 40px 0px;
+  /*background-color: aqua;*/
+}
+
+.statsBlockContent > h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  color: #FFFFFF;
+  /*background-color: #F1D06E;*/
+  padding: 0px 120px;
+  line-height: 1.3;
+}
+
+.statsBlockContent > section{
+  width: 100%;
+}
+
+.statsBlockContent > section > h2{
+  display: inline-block;
+  width: 33.33%;
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  color: #F8DB46;
+  /*background-color: #FF3D9A;*/
+}
+
+.statsBlockContent > section > h4{
+  display: inline-block;
+  width: 33.33%;
+  margin: 2% 0 4% 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  /*background-color: #FF3D9A;*/
+}
+
+.carousel{
+  background-color: #5758F1;
+  height: 326px;
+  text-align: center;
+  font-size: 64px;
+}
 
