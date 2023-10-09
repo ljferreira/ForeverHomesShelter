@@ -181,6 +181,7 @@ color: white;
 background-color: #FF3D9A;
 font-weight:700;
 font-size:   20px;
+cursor: pointer;
 
 /*position: relative;
 margin-left: 23.5%;
@@ -198,6 +199,7 @@ color: white;
 background-color: #FF3D9A;
 font-weight:700;
 font-size:   20px;
+cursor: pointer;
 
 /*position: relative;
 margin-left: 23.5%;
@@ -216,6 +218,7 @@ background-color: #F5F5F5;
 font-weight:700;
 font-size: 20px;
 margin-left: 20px;
+cursor: pointer;
 }
 
 .botaoApplyToAdopt{
@@ -229,6 +232,7 @@ margin-left: 20px;
   background-color: #1E1F27;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoViewAdoptables{
@@ -242,6 +246,7 @@ margin-left: 20px;
   background-color: #F8DB46;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoRaio16ViewAdoptables{
@@ -255,6 +260,7 @@ margin-left: 20px;
   background-color: #04C27F;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoGetInvolved{
@@ -268,6 +274,7 @@ margin-left: 20px;
   background-color: #F1D06E;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoGiveMonthly{
@@ -281,6 +288,7 @@ margin-left: 20px;
   background-color: #FF3D9A;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoLearnMore{
@@ -294,6 +302,7 @@ margin-left: 20px;
   background-color: #5758F1;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoIWannaAdopt{
@@ -307,6 +316,7 @@ margin-left: 20px;
   background-color: #04C27F;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoSubscribe{
@@ -320,6 +330,7 @@ margin-left: 20px;
   background-color: #F8DB46;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoBack{
@@ -333,6 +344,7 @@ margin-left: 20px;
   background-color: #37383F;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoCancel{
@@ -346,6 +358,7 @@ margin-left: 20px;
   background-color: #37383F;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botaoSeeMore{
@@ -359,6 +372,7 @@ margin-left: 20px;
   background-color: #FF3D9A;
   font-weight:700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 
@@ -464,3 +478,60 @@ width: 50%;
   font-size: 64px;
 }
 
+/********** MODAIS **********/
+.modalDonate{
+  display: none;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 400px;
+  border-radius: 20px;
+  padding: 23px;
+  /*text-align: center;*/
+  background-color: #FFFFFF;
+}
+
+.modalDonate h2{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.modalDonate button.botaoIWannaHelp{
+  display:block;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modalDonate button.botaoCancel{
+  display:block;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modalDonate form input[type="text"], .modalDonate form input[type="email"]{
+  display:block;
+  border-radius: 8px;
+  border: 1px solid;
+  width: 100%;
+  height: 56px;
+}
+
+.modalDonate form p{
+  padding: 0;
+}
+
+.lblColor{
+  color: #FF3D9A;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.lblColor span{
+  color: #3F96FC;
+}
