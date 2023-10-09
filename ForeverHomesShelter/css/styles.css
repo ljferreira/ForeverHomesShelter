@@ -15,41 +15,31 @@ section{
 }
 
 .caoGatoCasa{
-  /*display: inline-block;*/
   padding-top: 2px;
   width: 42%;
-  /*background-color: #5758F1;*/
 }
 
 
 header{
   height: 100px;
-  /*width: 85%;*/
   margin-left: 8.5%;
   margin-right: 8.5%;
-  /*padding: 0% 8.5% 0% 8.5%;*/
   padding-top: 5px;
-  /*background-color: aquamarine;*/
-  /*margin: auto;*/
 }
 
 main{
   display:inline-block;
-  /*width: 85%;*/
   margin-left: 8.5%;
   margin-right: 8.5%;
   padding-top: 0px;
-  /*padding: 0% 8.5% 0% 8.5%;*/
-  /*background-color: aquamarine;*/
-  /*margin: auto;*/
 }
 
 
 
 h1{
-font-weight:700;
-font-size: 64px;
-line-height: 1;
+  font-weight:700;
+  font-size: 64px;
+  line-height: 1;
 }
 
 h3{
@@ -57,26 +47,20 @@ h3{
   top: -5px;
   font-weight:700;
   font-size: 32px;
-  /*line-height: 1;*/
   }
 
 p{
-/*display:inline-block;*/
-margin-top: -18px;
-line-height: 1.6;
-font-family: Inter;
-font-size: 23px;
-padding: 0px 50px 0px 0px;
-font-weight: 500;
+  margin-top: -18px;
+  line-height: 1.6;
+  font-family: Inter;
+  font-size: 23px;
+  padding: 0px 50px 0px 0px;
+  font-weight: 500;
 }
 
 
   
 header{
-  /*height: 100px;
-  //width: 85%;
-  //background-color: aquamarine;
-  //margin: auto;*/
   border-bottom: 1px solid black;
 }
 
@@ -85,7 +69,6 @@ header{
 }
 
 .logotipo{
-  /*position: absolute;*/
   margin-left: -5px;
   margin: 10px 0px 0px -5px;
 }
@@ -93,36 +76,32 @@ header{
 nav{
   display: inline-block;
   position: absolute;
-  /*paddi: 15px;
-  //margin: 0px;*/
   margin-top: 30px;
   margin-left: 10px;
   width: 50%;
   
   text-align: start;
-  /*background-color: red;*/
 }
 
 nav a{
-text-decoration: none;
-color: black;
-font-family: 'Montserrat', sans-serif;
-font-weight:700;
-size: 20px;
-padding: 0rem 1.5rem 0rem 0rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  size: 20px;
+  padding: 0rem 1.5rem 0rem 0rem;
 }
 
 aside{
-float: right;
-padding: 15px 0px 15px 15px;
-/*background-color: yellow;*/
-width: auto;
+  float: right;
+  padding: 15px 0px 15px 15px;
+  width: auto;
 }
 
 .iconeTelefone{
-position: relative;
-top: 5px;
-left: -5px;
+  position: relative;
+  top: 5px;
+  left: -5px;
 }
 
 .telefone{
@@ -138,100 +117,53 @@ left: -5px;
   padding-right: 4px;
 }
 
-section button{
-  position: relative;
-  top: -25px;
-}
-
-.carrossel h3{
-  color:#F1D06E;
-  text-align: center;
-}
-
-.carrossel button{
-  display: block;
-}
-
-.carrossel img{
+.carrossel [id*="img"]{
+  width: 21%;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-
-/*
-header{
-height: 100%;
-width: 85%;
-background-color: aquamarine;
-margin: auto;
-border-bottom: 1px solid black;
-}
-
-main{
-height: 100%;
-width: 85%;
-background-color:darkgoldenrod;
-margin: auto;
-}
-
-.menuHeader{
-text-decoration: none;
-font-weight: 700;
-size: 20px;
-line-height: 5px;
-/*padding: 0px 5px 0px 5px;*/
-/*align-content: center;*/
-/*}*/
-
 .botaoDonate{
-width: 181px;
-height: 55px;
-padding: 16px, 32px, 16px, 32px;
-border-radius: 32px;
-gap: 8px;
-border: none;
-color: white;
-background-color: #FF3D9A;
-font-weight:700;
-font-size:   20px;
-cursor: pointer;
-
-/*position: relative;
-margin-left: 23.5%;
-margin-top: 0px;*/
+  width: 181px;
+  height: 55px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 32px;
+  gap: 8px;
+  border: none;
+  color: white;
+  background-color: #FF3D9A;
+  font-weight:700;
+  font-size:   20px;
+  cursor: pointer;
 }
 
 .botaoIWannaHelp{
-width: 249px;
-height: 64px;
-padding: 16px, 32px, 16px, 32px;
-border-radius: 32px;
-gap: 8px;
-border: none;
-color: white;
-background-color: #FF3D9A;
-font-weight:700;
-font-size:   20px;
-cursor: pointer;
-
-/*position: relative;
-margin-left: 23.5%;
-margin-top: 0px;*/
+  width: 249px;
+  height: 64px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 32px;
+  gap: 8px;
+  border: none;
+  color: white;
+  background-color: #FF3D9A;
+  font-weight:700;
+  font-size:   20px;
+  cursor: pointer;
 }
 
 .botaoIconApplyToAdopt{
-width: 263px;
-height: 55px;
-padding: 16px, 32px, 16px, 32px;
-border-radius: 32px;
-gap: 8px;
-border: 2px solid;
-color: #1E1F27;
-background-color: #F5F5F5;
-font-weight:700;
-font-size: 20px;
-margin-left: 20px;
-cursor: pointer;
+  width: 263px;
+  height: 55px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 32px;
+  gap: 8px;
+  border: 2px solid;
+  color: #1E1F27;
+  background-color: #F5F5F5;
+  font-weight:700;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .botaoApplyToAdopt{
@@ -393,44 +325,7 @@ cursor: pointer;
 position: relative;
 top: 5px;
 padding-right: 15px;
-/*border: 2px black solid;*/
 }
-/*
-.logotipo, nav, aside, h6, p{
-display: inline;
-}
-
-.logotipo{
-position: relative;
-margin-left: -5px;
-margin-top: 0px;
-}
-
-.caoGatoCasa{
-clear: left;
-background-color: brown;
-width: 30%;  
-}
-
-nav{
-position: absolute;
-margin-top: 5px;
-background-color: chartreuse;
-}
-
-aside{
-background-color: darkblue;
-}
-
-section{
-background-color: #FF3D9A;
-width: 50%;
-}
-
-/*div, main, h1, p{
-display: inline;
-width: 50%;
-}*/
 
 .statsBlock{
   background-color: #1E1F27;
@@ -446,7 +341,6 @@ width: 50%;
   margin-left: 8.5%;
   margin-right: 8.5%;
   padding: 40px 0px 40px 0px;
-  /*background-color: aqua;*/
 }
 
 .statsBlockContent > h2{
@@ -454,7 +348,6 @@ width: 50%;
   font-weight: 700;
   font-size: 56px;
   color: #FFFFFF;
-  /*background-color: #F1D06E;*/
   padding: 0px 120px;
   line-height: 1.3;
 }
@@ -471,7 +364,6 @@ width: 50%;
   font-weight: 700;
   font-size: 56px;
   color: #F8DB46;
-  /*background-color: #FF3D9A;*/
 }
 
 .statsBlockContent > section > h4{
@@ -482,7 +374,6 @@ width: 50%;
   font-weight: 700;
   font-size: 32px;
   color: #FFFFFF;
-  /*background-color: #FF3D9A;*/
 }
 
 .carousel{
@@ -501,10 +392,7 @@ width: 50%;
   width: 400px;
   border-radius: 20px;
   padding: 23px;
-  /*text-align: center;*/
   background-color: #FFFFFF;
-
-  /*animation-name: example;*/
   animation-duration: .5s;
   animation-fill-mode: forwards;
 }

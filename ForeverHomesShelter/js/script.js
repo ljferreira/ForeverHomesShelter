@@ -16,10 +16,9 @@ escondeModalDonate = () => {
     modal.style.animationName = "oculta";
 }
 
-carrosselEsq = () => {
+carrosselDir = () => {
 
-    let imagem = bancoImagem.shift();
-    bancoImagem.push(imagem);
+    bancoImagem.push(bancoImagem.shift());
 
     for(let conta = 0 ; conta < 4 ; conta++){
         document.getElementById("img00" + (conta + 1)).src = bancoImagem[conta];
@@ -27,10 +26,9 @@ carrosselEsq = () => {
 
 }
 
-carrosselDir = () => {
+carrosselEsq = () => {
 
-    let imagem = bancoImagem.pop();
-    bancoImagem.unshift(imagem);
+    bancoImagem.unshift(bancoImagem.pop());
 
     for(let conta = 0 ; conta < 4 ; conta++){
         document.getElementById("img00" + (conta + 1)).src = bancoImagem[conta];
