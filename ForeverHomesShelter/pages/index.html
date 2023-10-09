@@ -54,7 +54,15 @@
                 <h2>With your help, we accomplished these goals</h2>
                 <section><h2>1400</h2><h2>$1.4 Million</h2><h2>940</h2></section>
                 <section><h4>Animais Rescued</h4><h4>Raised</h4><h4>Tails Found a Home</h4></section>
-                <section class="carousel">CAROSUEL</section>
+                <section class="carrossel">
+                    <button onclick="carrosselEsq();"><---</button>
+                    <button onclick="carrosselDir();">---></button>
+                    <img id="img001" src="../img/png/bob.png"/>
+                    <img id="img002" src="../img/png/clorinde.png"/>
+                    <img id="img003" src="../img/png/roney.png"/>
+                    <img id="img004" src="../img/png/flocks.png"/>
+                    <!--<img id="img005" src="../img/png/aristotle.png"/>-->
+                </section>
             </section>
         </main>
         <main>
@@ -196,10 +204,6 @@
         </section>
         <!--MODAL-->
         <div class="modalDonate" id="modalDonate">
-            <!--<div class="modalDonateContent">
-                <span class="close" id="btnCloseModalDonate">&times;</span>
-                <h2>Modal Donate</h2>
-            </div>-->
             <h2>Choose your Donate</h2>
             <form action="success.html">
                 <p>
@@ -220,7 +224,7 @@
                     <input type="radio" id="paypal" name="metodoPagamento" value="paypal"/>
                 </p>
                 <button class="botaoIWannaHelp" type="submit"><img class="iconeCoracao" src="../img/png/coracao.png"/>I wanna Help!</button>
-                <button class="botaoCancel" type="button" onclick="escondeModalDonate()"><img class="iconeSetaEsquerda" src="../img/png/setaEsquerda.png"/>Cancel</button>
+                <button class="botaoCancel" type="reset" onclick="escondeModalDonate()"><img class="iconeSetaEsquerda" src="../img/png/setaEsquerda.png"/>Cancel</button>
             </form>
         </div>
         <script src="../js/script.js"></script>

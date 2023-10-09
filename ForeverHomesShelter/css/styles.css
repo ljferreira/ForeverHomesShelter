@@ -143,6 +143,19 @@ section button{
   top: -25px;
 }
 
+.carrossel h3{
+  color:#F1D06E;
+  text-align: center;
+}
+
+.carrossel button{
+  display: block;
+}
+
+.carrossel img{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 /*
@@ -424,6 +437,7 @@ width: 50%;
   width: 100%;
   margin-top: 10%;
   margin-left: 0%;
+  margin-right: 0%;
   height: 924px;
 }
 
@@ -483,12 +497,16 @@ width: 50%;
   display: none;
   position: fixed;
   top: 5%;
-  left: 5%;
+  left: 110%;
   width: 400px;
   border-radius: 20px;
   padding: 23px;
   /*text-align: center;*/
   background-color: #FFFFFF;
+
+  /*animation-name: example;*/
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
 }
 
 .modalDonate h2{
@@ -534,4 +552,14 @@ width: 50%;
 
 .lblColor span{
   color: #3F96FC;
+}
+
+@keyframes exibe {
+  from {left:100%;}
+  to {left: 35%;}
+}
+
+@keyframes oculta {
+  from {left:35%;}
+  to {left: 110%; display: none;}
 }
