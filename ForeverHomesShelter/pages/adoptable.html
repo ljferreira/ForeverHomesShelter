@@ -25,11 +25,11 @@
                 <a class="menuHeader" href="#">Events</a>
             </nav>
             <aside>
-                <img class="telefone" src="../img/png/telefone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
-                <button class="botaoDonate"><img class="iconeCoracao" src="../img/png/coracao.png"/>Donate</button>
+                <img class="iconeFone" src="../img/png/fone.png" alt="telefone"/><h4 class="telefone">631-249-7325</h4>
+                <!--<button class="botaoDonate" onclick="window.location.href = 'donate.html';"><img class="iconeCoracao" src="../img/png/coracao.png"/>Donate</button>-->
+                <button class="botaoDonate" onclick="exibeModalDonate()"><img class="iconeCoracao" src="../img/png/coracao.png"/>Donate</button>
             </aside>
         </header>
-
         <main>
             <button class="botaoBack" onclick="window.location.href = 'index.html';"><img class="iconeSetaEsquerda" src="../img/png/setaEsquerda.png"/>Back</button>
             <section>
@@ -112,7 +112,31 @@
         <section>
             <H3>We'are not just a rescue, we are a refuge</H3>
         </section>
-
-
+        <!--MODAL-->
+        <div class="modalDonate" id="modalDonate">
+            <h2>Choose your Donate</h2>
+            <form action="success.html">
+                <p>
+                    <label class="lblColor">EMAIL<span>*</span></label></br>
+                    <input type="email" placeholder="youremail@here|"/>
+                </p>
+                <p>
+                    <label class="lblColor">HOW MUCH CAN YOU HELP?<span>*</span></label></br>
+                    <input type="text" placeholder="R$ 95,00" />
+                </p>
+                <p>
+                    <label class="lblColor">PAYMENT METHOD<span>*</span></label></br>
+                    <label for="pix">Pix</label>
+                    <input type="radio" id="pix" name="metodoPagamento" value="pix"/>
+                    <label for="creditCard">Credit Card</label>
+                    <input type="radio" id="creditCard" name="metodoPagamento" value="creditCard"/>
+                    <label for="paypal">Paypal</label>
+                    <input type="radio" id="paypal" name="metodoPagamento" value="paypal"/>
+                </p>
+                <button class="botaoIWannaHelp" type="submit"><img class="iconeCoracao" src="../img/png/coracao.png"/>I wanna Help!</button>
+                <button class="botaoCancel" type="reset" onclick="escondeModalDonate()"><img class="iconeSetaEsquerda" src="../img/png/setaEsquerda.png"/>Cancel</button>
+            </form>
+        </div>
+        <script src="../js/script.js"></script>
     </body>
 </html>
